@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/main.css"> 
+</head>
+<body class="page">
+    <header class="page__header">
+            <div class="container">
+                <nav class="navigation">   
+                    <div class="navigation__menu">
+                        <img src="assets/images/logo.png" class="navigation__img" alt="Иконка ИКИТ">
+
+                        <input id="menu-toggle" type="checkbox" />
+                        <label class='menu-button-container' for="menu-toggle">
+                            <div class='menu-button'></div>
+                        </label> 
+
+                        <ul class="navigation__list menu">
+                            <li class="navigation__item--active"><a href="#">Главная</a></li>
+                            <li class="navigation__item"><a href="#">Информация</a></li>
+                            <li class="navigation__item"><a href="#">Новости</a></li>
+                            <li class="navigation__item"><a href="#">Контакты</a></li>
+                        </ul>
+                    </div>
+                    <div class="navigation__user sign-in-button">
+                        <a class="sign-in-button__item-name" href="#">Ваше имя</a>
+                        <a class="sign-in-button__item" href="#">
+                            <div class="sign-in-button__circle">
+                                <img class="sign-in-button__img" src="assets/images/sign-in.png" alt="Иконка человека">
+                            </div>  
+                        </a>
+                    </div>
+                </nav>
+            </div>  
+    </header>
+    
+    <div class="page__main container">
+        <h1 class="page__title">Личная страница</h1>
+        <h2 class="page__subtitle">Полезная информация</h2>
+        <div class="usefull-info">
+            <article class="usefull-info-left">
+                <div class="usefull-info-left__search">
+                    <div class="usefull-info-left__text">
+                        <input id="film-name-text" type="text" />
+                    </div>
+                    <div class="usefull-info-left__button">
+                        <button id="film-name-button" >Поиск</button>
+                    </div>
+                    
+                </div>
+                <h2 class="usefull-info-left__title">Фильмы</h2>
+                <ul class="usefull-info-left__list">
+                    <li class="usefull-info-left__item">Список 1</li>
+                    <li class="usefull-info-left__item">Список 2</li>
+                    <li class="usefull-info-left__item">Список 3</li>
+                    <li class="usefull-info-left__item">Список 4</li>
+                </ul>
+            </article>
+            <article class="usefull-info-right">
+                <h2 class="usefull-info-right__title">СФУ и Россий­ский универ­ситет спорта стали парт­нёрами</h2>
+                <div class="usefull-info-right__text-block">
+                    <h3 class="usefull-info-right__subtitle">Заголовок</h3>
+                    <p class="usefull-info-right__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </p>
+                </div>
+                <div class="usefull-info-right__text-block">
+                    <h3 class="usefull-info-right__subtitle">Заголовок</h3>
+                    <p class="usefull-info-right__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </p>
+                </div>
+            </article>
+        </div>
+            
+        <div class="container">
+            <h2 class="page__title-two">Интересные статьи</h2>
+            <div class="icons">
+                <button class="icon__button" id="icon__list-button">
+                    <svg  viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8.5 6H21.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M8.5 12H21.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M8.5 18H21.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M3.5 6H3.51" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M3.5 12H3.51" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M3.5 18H3.51" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                        
+                    <!-- <span class="iconify icon__list" data-icon="ant-design:unordered-list-outlined"></span> --Лишняя работа-- -->
+                </button>
+                <button class="icon__button icon__button--active" id="icon__grid-button">
+                    <svg viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M10.5 3H3.5V10H10.5V3Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M21.5 3H14.5V10H21.5V3Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M21.5 14H14.5V21H21.5V14Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M10.5 14H3.5V21H10.5V14Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                        
+                    <!-- <span class="iconify icon__grid--active" data-icon="bi:grid"></span>      --Лишняя работа-- -->
+                </button>
+            </div>
+            
+            <p class="page__subtitle-two">Описать, о чем эти статьи, кратко</p>
+            <!--
+                модификатор записывается как article article--row  --DONE--
+            -->
+            <div class="article">
+                <article class="article-content">
+                    <img class="article__img" src="assets/images/left.png" alt="Стол с периферией">
+                    <div class="article__content">
+                        <div class="article__wrapper">
+                            <h3 class="article__title">Boost your conversion rate</h3>
+                            <p class="article__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto accusantium praesentium eius, ut atque fuga culpa, similique sequi cum eos quis dolorum.</p>
+                        </div>
+                        <footer>
+                            <p class="article__date">Mar 16, 2020 · 6 min read</p>
+                        </footer>
+                    </div>
+                </article>
+                <article class="article-content">
+                    <img class="article__img" src="assets/images/center.png" alt="Ноутбук на столе">
+                    <div class="article__content">
+                        <div class="article__wrapper">
+                            <h3 class="article__title">How to use search engine optimization to drive sales</h3>
+                            <p class="article__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto accusantium praesentium eius, ut atque fuga culpa, similique sequi cum eos quis dolorum.</p>    
+                        </div>
+                        <footer>
+                            <p class="article__date">Mar 10, 2020 · 4 min read</p>
+                        </footer>
+                    </div>
+                </article>
+                <article class="article-content">
+                    <img class="article__img" src="assets/images/right.png" alt="Imac на столе">
+                    <div class="article__content">
+                        <div class="article__wrapper">
+                            <h3 class="article__title">Improve your customer experience</h3>
+                            <p class="article__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto accusantium praesentium eius, ut atque fuga culpa, similique sequi cum eos quis dolorum.</p>    
+                        </div>
+                        <footer>
+                            <p class="article__date">Feb 12, 2020 · 11 min read</p>
+                        </footer>
+                    </div>
+                </article>
+            </div>
+
+            <div class="article-add">
+                <div class="article-add__button">
+                    <button class="article-add__button-add" id="article-add__button">Добавить</button>
+                </div>
+                <form class="article-add__form form" onsubmit="return false;">
+                    <div class="form__inputs">
+                        <label for="article-text__name" class="article-text-name">Название статьи</label>
+                        <input type="text" id="article-text-name">
+                        <label for="article-text__url" class="article-text-url">Ссылка на картинку</label>
+                        <input type="text" id="article-text-url">
+                        <label for="article-text-description" class="article-text__description">Описание</label>
+                        <textarea  id="article-text-description"></textarea>
+                        <div class="form__buttons">
+                            <button type="reset" class="article-add__button-cancel" id="article-add__button-cancel">Отмена</button>
+                            <button type="submit" class="article-add__button-create" id="article-add__button-create">Создать</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="faq container" id="faq">
+                <h3 class="faq-title">FAQ</h2>
+                <dl class="faq-page">
+                    <dt class="faq-page__question">Use service data to identify your most common questions ?</dt>
+                    <dd class="faq-page__answer">Your FAQ page should address the most common questions customers have about your products, services, and brand as a whole. The best way to identify those questions is to tap into your customer service data and see which problems customers are consistently reaching out to you with. If you have a help desk or call center software you can easily discover the most popular questions that customers have for your team. Some ticketing systems even offer tagging features that allow agents to label individual tickets.</dd>
+        
+                    <dt class="faq-page__question">Include space for live support options</dt>
+                    <dd class="faq-page__answer">FAQ pages are intended as an initial support option for customers looking for an immediate answer to a quick question or problem. It shouldn't replace your knowledge base or your entire support team, but rather supplement your support channels as an additional, lightweight resource. When customers do have questions that extend beyond the range of your FAQ page, you should have options available that directly connect them with your support team. You could add a link that opens a new support ticket or even just list your call center's phone number at the bottom of the page.</dd>
+        
+                    <dt class="faq-page__question">Update content and add more solutions over time.</dt>
+                    <dd class="faq-page__answer">As your business grows, you should update your FAQ page to include any new questions that become popular over time. For example, if you release a new product or service you'll need to update your FAQ page so that it includes troubleshooting tips for this offer as well. This shows that you take customer success seriously and that you're rolling out new products and services that your team knows how to support.</dd>
+                </dl>
+            </div>
+        </div>
+    </div>
+
+    <footer class="page__footer"> 
+        <div class="container">
+            <p class="footer__copywrite">© 2022 Институт космических и информационных технологий СФУ</p>
+        </div>
+    </footer> 
+</body>
+<!-- <script src="https://code.iconify.design/iconify-icon/1.0.1/iconify-icon.min.js"></script> -->
+<script  rel="stylesheet" src="assets/js/main.js"></script> 
+<!-- <script src="https://code.iconify.design/3/3.0.0/iconify.min.js"></script> -->
+</html>
