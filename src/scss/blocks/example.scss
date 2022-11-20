@@ -27,10 +27,6 @@
         border-top-left-radius: 10px;
         border-top-right-radius: 10px;
     }
-
-    // &__title{
-    //     font-size: 40px;
-    // }
 }
 
 
@@ -53,10 +49,6 @@
     }
 }
 
-// .article__title:hover{
-//     text-decoration: underline;
-// }
-
 .article__image{
     height: 250px;
     object-fit: cover;
@@ -74,12 +66,6 @@
     background-color: black;
     color: white;
 }
-
-// .article--theme-dark {
-//     .article__image{
-//         filter: grayscale(100%);
-//     }
-// }
 
 .article--theme-dark .article__image{
     filter: grayscale(100%);

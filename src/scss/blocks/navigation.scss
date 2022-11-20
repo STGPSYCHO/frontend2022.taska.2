@@ -25,7 +25,6 @@
     overflow: hidden;
 }
 .navigation__item:hover{
-    /* height: 36px; */
     background: #111827;
     border-radius: 6px;
     transition: .3s;
@@ -39,7 +38,6 @@
     overflow: hidden;
 }
 .navigation__item--active:hover{
-    /* height: 36px; */
     background: #111827;
     border-radius: 6px;
     transition: .3s;
@@ -62,12 +60,6 @@
     flex-direction: row;
     align-items: center;
     padding: 0px;
-    // @include media-xl-max{
-    //     display: none;
-    // }
-    // @include media-lg-max{
-    //     display: none;
-    // }
     @include media-md-max{
         display: none;
         gap: 0px;
