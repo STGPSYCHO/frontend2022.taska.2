@@ -120,9 +120,9 @@
 }
 .article-add{
     display: flex;
-    flex-direction: column;
     margin-top: 50px;
     align-items: center;
+    justify-content: center;
 }
 .article-add__button-add{
     width: 403px;
@@ -131,10 +131,11 @@
     border: 1px solid #000000;
     font-weight: 500;
     font-size: 16px;
-    // display: none;
+
 }
 .article-add__button-cancel{
-    width: 300px;
+    max-width: 300px;
+    width: -webkit-fill-available;
     height: 44px;
     background: #ffffff;
     border: 1px solid #000000;
@@ -142,7 +143,8 @@
 font-size: 16px;
 }
 .article-add__button-create{
-    width: 300px;
+    max-width: 300px;
+    width: -webkit-fill-available;
     height: 44px;
     background: #FCFFE7;
     border: 1px solid #000000;

@@ -4,9 +4,9 @@
 }
 .form{
     display: none;
-    justify-content: center;
+    flex: 1 1 auto;
+    justify-content:center;
     flex-direction: column;
-    width: 834px;
     font-weight: 400;
     font-size: 18px;
 }
@@ -14,6 +14,5 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 834px;
     margin-top: 20px;
 }
