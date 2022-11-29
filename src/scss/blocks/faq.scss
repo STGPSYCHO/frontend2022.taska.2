@@ -17,9 +17,6 @@
         @include media-md-max{
             font-size: 16px;
         }
-        @include media-sm-max{
-            font-size: 16px;
-        }
         font-weight: 500;
         background-color: #D9D9D9;
         outline: none;
@@ -31,9 +28,6 @@
         &__answer{
             font-size: 16px;
             @include media-lg-max{
-                font-size: 14px;
-            }
-            @include media-md-max{
                 font-size: 14px;
             }
             @include media-sm-max{

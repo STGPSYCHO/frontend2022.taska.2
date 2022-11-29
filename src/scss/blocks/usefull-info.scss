@@ -10,11 +10,6 @@
         grid-row-gap: 10px;
         grid-column-gap: 0px;
      }
-     @include media-sm-max {
-        grid-template-columns: repeat(1, minmax(0, 1fr));
-        grid-row-gap: 10px;
-        grid-column-gap: 0px;
-    }
 }
 .usefull-info-left{
     grid-column: 1/2;
@@ -79,12 +74,6 @@
     @include media-lg-max{
         font-size: 14px;
     }
-    @include media-md-max{
-        font-size: 14px;
-    }
-    @include media-sm-max{
-        font-size: 14px;
-    }
 } 
 .usefull-info-right__title{
     font-weight: 700;
@@ -126,12 +115,6 @@
     @include media-lg-max{
         font-size: 14px;
     }
-    @include media-md-max{
-        font-size: 14px;
-    }
-    @include media-sm-max{
-        font-size: 14px;
-    }
 }
 .usefull-info-left__search{
     display: flex;
@@ -159,12 +142,6 @@
     border: 0;
     background-color: rgb(204, 204, 204);
     @include media-sm-max{
-        margin-top: 10px;
-    }
-    @include media-xl-max{
-        margin-top: 10px;
-    }
-    @include media-lg-max{
         margin-top: 10px;
     }
 }
