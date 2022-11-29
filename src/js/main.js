@@ -81,7 +81,7 @@ if(icon__grid_button){
 }
 
 /*Открытие формы добавления*/
-const article_add__button = document.getElementById('article-add__button'); 
+const article_add__button = document.querySelector('.article-add__button'); 
 const article_add__button_cancel = document.getElementById('article-add__button-cancel');
 const article_add__button_create = document.getElementById('article-add__button-create');
 const form = document.querySelector('.form');
