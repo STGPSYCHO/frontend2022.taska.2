@@ -12,9 +12,6 @@
     @include media-md-max{
         display: none;
     }
-    @include media-sm-max{
-        display: none;
-    }
 }
 .navigation__item{
     padding: 12px;

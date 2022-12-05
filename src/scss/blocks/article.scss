@@ -47,7 +47,6 @@
     }
     @include media-sm-max{
         padding: 14px;
-        min-height: 250px;
     }
 }
 .article__content--list{
@@ -61,7 +60,6 @@
     }
     @include media-sm-max{
         padding: 14px;
-        min-height: 250px;
     }
 }
 
@@ -123,7 +121,7 @@
     background: #ffffff;
     border: 1px solid #000000;
     font-weight: 500;
-font-size: 16px;
+    font-size: 16px;
 }
 .article-add__button-create{
     max-width: 300px;

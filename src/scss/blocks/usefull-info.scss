@@ -28,7 +28,6 @@
         padding: 20px;
     }
     @include media-sm-max{
-        grid-column: none;
         padding: 15px;
     }
 }
@@ -49,7 +48,6 @@
         padding: 20px;
     }
     @include media-sm-max{
-        grid-column: none;
         padding: 15px;
     }
 }
@@ -122,9 +120,6 @@
     justify-content: space-between;
     margin-bottom: 30px;
     @include media-xl-max{
-        flex-direction: column;
-    }
-    @include media-lg-max{
         flex-direction: column;
     }
     @include media-md-max{
